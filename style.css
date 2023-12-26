@@ -1,0 +1,129 @@
+*{
+background-color: rgb(255,255,255);
+}
+
+.cont{
+    
+    height:120px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    font-size: 15px;
+   
+    color:rgb(138, 132, 132);
+    width:1280px; 
+    list-style-type: none;
+    margin-left:60px ;
+    
+    
+}
+h3{
+    justify-content: center;
+    padding: 12px;
+border-radius: 8px;
+}
+h3:hover{
+    background-color:  rgb(200, 198, 198) ;
+    transform: scale(1);
+    cursor: pointer;
+    
+}
+
+h2:hover{
+    background-color:  rgb(200, 198, 198) ;
+    transform: scale(1);
+    cursor: pointer; 
+
+}
+
+h2{
+    color: black;
+    font-size: 28px;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    
+
+}
+
+button{
+    height: 55px;
+    
+    margin-left: 300px;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    text-align: center;
+    list-style-type: none;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color:  lightblue ;
+    transform: scale(1);
+    cursor: pointer; 
+}
+
+.endbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text{
+margin-top: 70px;
+margin-left: 100px;
+
+}
+
+h1{
+    font-size: 45px;
+    color: black;
+    line-height: 23px;
+}
+
+p{
+    font-size: 19px;
+    color:grey ;
+    line-height:15px ;
+}
+
+.startbar{
+    margin-left: -300px;
+    margin-top: 40px;
+}
+
+h4{
+    
+line-height: 80px;
+font-size: 20px;
+color:  grey ;
+}
+a{
+    text-decoration: none;
+   background-color: blue;
+   padding: 18px;
+    border: none;
+    color: white;
+    
+
+}
+
+a:hover{
+    background-color:  lightblue ;
+    transform: scale(1);
+    cursor: pointer;  
+}
+.textss{
+    margin-left: 540px;
+ margin-top: -560px;
+}
+
+.picss{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-start;
+}
